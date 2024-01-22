@@ -17,6 +17,6 @@ Based on [SKGleba's work](https://github.com/SKGleba/henlo_jb), this allows you 
 ### Why 192.168.0.123? I want to use a different IP!
 Repo IP that serves henkaku/VitaDeploy downloads is hardcoded within compiled payload.bin. If you want to use a different IP, you will need to:
 1. Download or checkout this repo with git,
-2. Change `HEN_REPO_URL` string value in `bootstrap_lite/main.c`,
+2. Change `HEN_REPO_URL` string value in `bootstrap_lite/main.c` (line 52),
 3. Run `prepare_jb.sh` to recompile the `payload.bin` (you will need [Vita SDK](https://vitasdk.org/) installed for compilation),
 4. Change the IP address in `server_python2.py`/`server_python3.py`.
