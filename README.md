@@ -12,7 +12,7 @@ Based on [SKGleba's work](https://github.com/SKGleba/henlo_jb), this allows you 
 2. Change your IPv4 connection settings to Manual, set your PC's LAN IP  to 192.168.0.123, and set the gateway IP as the LAN IP of your router/WiFi dongle (usually 192.168.0.1 or something similar).
 3. Unzip henlo_jb_local.zip somewhere on your PC. 
 4. Open console terminal, navigate to the unzipped folder and run one of the server scripts, depending on your installed version of Python (server_python2.py for Python2 or server_python3.py for Python3). If successful, you should see the following message appear: `Starting server on 192.168.0.123:8888`
-5. Open http://192.168.0.123:8888 on your Vita and follow the [HENlo Vita guide](https://vita.hacks.guide/using-henlo.html) instructions as normal.
+5. Connect your Vita via WiFi to your router/WiFi dongle, open http://192.168.0.123:8888 on your Vita and follow the [HENlo Vita guide](https://vita.hacks.guide/using-henlo.html) instructions as normal.
 
 ### Why 192.168.0.123? I want to use a different IP!
 Repo IP that serves henkaku/VitaDeploy downloads is hardcoded within compiled payload.bin. If you want to use a different IP, you will need to:
