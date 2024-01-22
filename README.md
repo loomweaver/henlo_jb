@@ -6,7 +6,6 @@ Based on [SKGleba's work](https://github.com/SKGleba/henlo_jb), this allows you 
 ## Requirements
 - PC with Python2 or Python3 installed on it
 - WiFi router or WiFi dongle capable of acting as access point for Vita (2.4Ghz, AP Mode)
-- 
 
 ## Usage
 1. Download [henlo_jb_local.zip](https://github.com/loomweaver/henlo_jb/releases/tag/henlo_jb_local) to your PC. 
