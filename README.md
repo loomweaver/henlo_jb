@@ -1,4 +1,4 @@
-# henlo_jb_local
+# WiiUExploit
 A WiiU exploit self hosting package (works with 5.5.x), this allows you to run HENlo server fully locally for offline usage.
 
 ## Requirements
